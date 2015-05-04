@@ -1,0 +1,346 @@
+<?xml version="1.0"?>
+<tplset>
+  <name>eastmeetswest</name>
+  <dateCreated>1075492181</dateCreated>
+  <credits>
+
+  </credits>
+  <generator>XOOPS 2.0.6</generator>
+  <templates>
+    <template name="system_imagemanager.html">
+      <module>system</module>
+      <type>module</type>
+      <lastModified>1075492181</lastModified>
+    </template>
+    <template name="system_imagemanager2.html">
+      <module>system</module>
+      <type>module</type>
+      <lastModified>1075492181</lastModified>
+    </template>
+    <template name="system_userinfo.html">
+      <module>system</module>
+      <type>module</type>
+      <lastModified>1075492181</lastModified>
+    </template>
+    <template name="system_userform.html">
+      <module>system</module>
+      <type>module</type>
+      <lastModified>1075492181</lastModified>
+    </template>
+    <template name="system_rss.html">
+      <module>system</module>
+      <type>module</type>
+      <lastModified>1075492181</lastModified>
+    </template>
+    <template name="system_redirect.html">
+      <module>system</module>
+      <type>module</type>
+      <lastModified>1075492181</lastModified>
+    </template>
+    <template name="system_comment.html">
+      <module>system</module>
+      <type>module</type>
+      <lastModified>1075492181</lastModified>
+    </template>
+    <template name="system_comments_flat.html">
+      <module>system</module>
+      <type>module</type>
+      <lastModified>1075492181</lastModified>
+    </template>
+    <template name="system_comments_thread.html">
+      <module>system</module>
+      <type>module</type>
+      <lastModified>1075492181</lastModified>
+    </template>
+    <template name="system_comments_nest.html">
+      <module>system</module>
+      <type>module</type>
+      <lastModified>1075492181</lastModified>
+    </template>
+    <template name="system_siteclosed.html">
+      <module>system</module>
+      <type>module</type>
+      <lastModified>1075492181</lastModified>
+    </template>
+    <template name="system_dummy.html">
+      <module>system</module>
+      <type>module</type>
+      <lastModified>1075492181</lastModified>
+    </template>
+    <template name="system_notification_list.html">
+      <module>system</module>
+      <type>module</type>
+      <lastModified>1075492181</lastModified>
+    </template>
+    <template name="system_notification_select.html">
+      <module>system</module>
+      <type>module</type>
+      <lastModified>1075492181</lastModified>
+    </template>
+    <template name="system_block_user.html">
+      <module>system</module>
+      <type>block</type>
+      <lastModified>1075492181</lastModified>
+    </template>
+    <template name="system_block_login.html">
+      <module>system</module>
+      <type>block</type>
+      <lastModified>1075492181</lastModified>
+    </template>
+    <template name="system_block_search.html">
+      <module>system</module>
+      <type>block</type>
+      <lastModified>1075492181</lastModified>
+    </template>
+    <template name="system_block_waiting.html">
+      <module>system</module>
+      <type>block</type>
+      <lastModified>1075492181</lastModified>
+    </template>
+    <template name="system_block_mainmenu.html">
+      <module>system</module>
+      <type>block</type>
+      <lastModified>1075492182</lastModified>
+    </template>
+    <template name="system_block_siteinfo.html">
+      <module>system</module>
+      <type>block</type>
+      <lastModified>1075492182</lastModified>
+    </template>
+    <template name="system_block_online.html">
+      <module>system</module>
+      <type>block</type>
+      <lastModified>1075492182</lastModified>
+    </template>
+    <template name="system_block_topusers.html">
+      <module>system</module>
+      <type>block</type>
+      <lastModified>1075492182</lastModified>
+    </template>
+    <template name="system_block_newusers.html">
+      <module>system</module>
+      <type>block</type>
+      <lastModified>1075635125</lastModified>
+    </template>
+    <template name="system_block_comments.html">
+      <module>system</module>
+      <type>block</type>
+      <lastModified>1075492182</lastModified>
+    </template>
+    <template name="system_block_notification.html">
+      <module>system</module>
+      <type>block</type>
+      <lastModified>1075492182</lastModified>
+    </template>
+    <template name="system_block_themes.html">
+      <module>system</module>
+      <type>block</type>
+      <lastModified>1075492182</lastModified>
+    </template>
+    <template name="mydownloads_brokenfile.html">
+      <module>mydownloads</module>
+      <type>module</type>
+      <lastModified>1075492182</lastModified>
+    </template>
+    <template name="mydownloads_download.html">
+      <module>mydownloads</module>
+      <type>module</type>
+      <lastModified>1075492182</lastModified>
+    </template>
+    <template name="mydownloads_index.html">
+      <module>mydownloads</module>
+      <type>module</type>
+      <lastModified>1075492182</lastModified>
+    </template>
+    <template name="mydownloads_modfile.html">
+      <module>mydownloads</module>
+      <type>module</type>
+      <lastModified>1075492182</lastModified>
+    </template>
+    <template name="mydownloads_ratefile.html">
+      <module>mydownloads</module>
+      <type>module</type>
+      <lastModified>1075492182</lastModified>
+    </template>
+    <template name="mydownloads_singlefile.html">
+      <module>mydownloads</module>
+      <type>module</type>
+      <lastModified>1075492182</lastModified>
+    </template>
+    <template name="mydownloads_submit.html">
+      <module>mydownloads</module>
+      <type>module</type>
+      <lastModified>1075492182</lastModified>
+    </template>
+    <template name="mydownloads_topten.html">
+      <module>mydownloads</module>
+      <type>module</type>
+      <lastModified>1075492182</lastModified>
+    </template>
+    <template name="mydownloads_viewcat.html">
+      <module>mydownloads</module>
+      <type>module</type>
+      <lastModified>1075492182</lastModified>
+    </template>
+    <template name="mylinks_brokenlink.html">
+      <module>mylinks</module>
+      <type>module</type>
+      <lastModified>1075492181</lastModified>
+    </template>
+    <template name="mylinks_link.html">
+      <module>mylinks</module>
+      <type>module</type>
+      <lastModified>1075492181</lastModified>
+    </template>
+    <template name="mylinks_index.html">
+      <module>mylinks</module>
+      <type>module</type>
+      <lastModified>1075492181</lastModified>
+    </template>
+    <template name="mylinks_modlink.html">
+      <module>mylinks</module>
+      <type>module</type>
+      <lastModified>1075492182</lastModified>
+    </template>
+    <template name="mylinks_ratelink.html">
+      <module>mylinks</module>
+      <type>module</type>
+      <lastModified>1075492182</lastModified>
+    </template>
+    <template name="mylinks_singlelink.html">
+      <module>mylinks</module>
+      <type>module</type>
+      <lastModified>1075492182</lastModified>
+    </template>
+    <template name="mylinks_submit.html">
+      <module>mylinks</module>
+      <type>module</type>
+      <lastModified>1075492182</lastModified>
+    </template>
+    <template name="mylinks_topten.html">
+      <module>mylinks</module>
+      <type>module</type>
+      <lastModified>1075492182</lastModified>
+    </template>
+    <template name="mylinks_viewcat.html">
+      <module>mylinks</module>
+      <type>module</type>
+      <lastModified>1075492182</lastModified>
+    </template>
+    <template name="newbb_index.html">
+      <module>newbb</module>
+      <type>module</type>
+      <lastModified>1075492181</lastModified>
+    </template>
+    <template name="newbb_search.html">
+      <module>newbb</module>
+      <type>module</type>
+      <lastModified>1075492181</lastModified>
+    </template>
+    <template name="newbb_searchresults.html">
+      <module>newbb</module>
+      <type>module</type>
+      <lastModified>1075492181</lastModified>
+    </template>
+    <template name="newbb_thread.html">
+      <module>newbb</module>
+      <type>module</type>
+      <lastModified>1075492181</lastModified>
+    </template>
+    <template name="newbb_viewforum.html">
+      <module>newbb</module>
+      <type>module</type>
+      <lastModified>1075492181</lastModified>
+    </template>
+    <template name="newbb_viewtopic_flat.html">
+      <module>newbb</module>
+      <type>module</type>
+      <lastModified>1075492181</lastModified>
+    </template>
+    <template name="newbb_viewtopic_thread.html">
+      <module>newbb</module>
+      <type>module</type>
+      <lastModified>1075492181</lastModified>
+    </template>
+    <template name="news_archive.html">
+      <module>news</module>
+      <type>module</type>
+      <lastModified>1075492181</lastModified>
+    </template>
+    <template name="news_article.html">
+      <module>news</module>
+      <type>module</type>
+      <lastModified>1075492181</lastModified>
+    </template>
+    <template name="news_index.html">
+      <module>news</module>
+      <type>module</type>
+      <lastModified>1075492181</lastModified>
+    </template>
+    <template name="news_item.html">
+      <module>news</module>
+      <type>module</type>
+      <lastModified>1075492181</lastModified>
+    </template>
+    <template name="mydownloads_block_new.html">
+      <module>mydownloads</module>
+      <type>block</type>
+      <lastModified>1075492182</lastModified>
+    </template>
+    <template name="mydownloads_block_top.html">
+      <module>mydownloads</module>
+      <type>block</type>
+      <lastModified>1075492182</lastModified>
+    </template>
+    <template name="mylinks_block_new.html">
+      <module>mylinks</module>
+      <type>block</type>
+      <lastModified>1075492182</lastModified>
+    </template>
+    <template name="mylinks_block_top.html">
+      <module>mylinks</module>
+      <type>block</type>
+      <lastModified>1075492182</lastModified>
+    </template>
+    <template name="newbb_block_new.html">
+      <module>newbb</module>
+      <type>block</type>
+      <lastModified>1075492182</lastModified>
+    </template>
+    <template name="newbb_block_top.html">
+      <module>newbb</module>
+      <type>block</type>
+      <lastModified>1075492182</lastModified>
+    </template>
+    <template name="newbb_block_active.html">
+      <module>newbb</module>
+      <type>block</type>
+      <lastModified>1075492182</lastModified>
+    </template>
+    <template name="newbb_block_prv.html">
+      <module>newbb</module>
+      <type>block</type>
+      <lastModified>1075492182</lastModified>
+    </template>
+    <template name="news_block_topics.html">
+      <module>news</module>
+      <type>block</type>
+      <lastModified>1075492182</lastModified>
+    </template>
+    <template name="news_block_bigstory.html">
+      <module>news</module>
+      <type>block</type>
+      <lastModified>1075492182</lastModified>
+    </template>
+    <template name="news_block_top.html">
+      <module>news</module>
+      <type>block</type>
+      <lastModified>1075492182</lastModified>
+    </template>
+    <template name="news_block_new.html">
+      <module>news</module>
+      <type>block</type>
+      <lastModified>1075492182</lastModified>
+    </template>
+  </templates>
+</tplset>

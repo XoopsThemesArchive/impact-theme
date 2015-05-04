@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<{$xoops_langcode}>" lang="<{$xoops_langcode}>">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="content-language" content="<{$xoops_langcode}>" />
+<meta name="robots" content="<{$xoops_meta_robots}>" />
+<meta name="Keywords" content="<{$xoops_meta_keywords}>" />
+<meta name="Description" content="<{$xoops_meta_description}>" />
+<meta name="rating" content="<{$xoops_meta_rating}>" />
+<meta name="author" content="<{$xoops_meta_author}>" />
+<meta name="copyright" content="<{$xoops_meta_copyright}>" />
+<meta name="generator" content="XOOPS" />
+<title><{$xoops_sitename}> - <{$xoops_pagetitle}></title>
+<link href="<{$xoops_url}>/favicon.ico" rel="SHORTCUT ICON" />
+<!-- RMV: added module header -->
+<{$xoops_module_header}>
+<script type="text/javascript">
+<!--
+<{$xoops_js}>
+//-->
+</script>
+<style type="text/css">
+<!--
+h3 { font-size:16; }
+h4 { font-size:14; }
+h1 { font-style:italic; font-size:20; margin-top:3; }
+h2 { font-style:oblique; font-size:18; margin-top:3; }
+--></style>
+<link rel="stylesheet" href="<{$xoops_url}>/xoops.css">
+<link rel="stylesheet" href="<{$xoops_themecss}>"></head>
+
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<div align="center"><br>
+  <table width="800" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><img src="<{$xoops_imageurl}>/images/logo.jpg" width="800" height="150"></td>
+    </tr>
+  </table>
+  <table width="800" height="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+            <td width="150" valign="top" bgcolor="#E1E1E1" style="background-color:rgb(225,225,225); border-right-width:1; border-right-color:black; border-right-style:solid;"> 
+
+                <table width="150" height="100%" border="0" cellpadding="0" cellspacing="1" bgcolor="#303030" style="border-bottom-width:1; border-bottom-style:none;">
+                    <tr>
+                        <td valign="top" bgcolor="#e1e1e1" height="100%">
+                            <p align="center"><br />
+                            <!-- Start left blocks loop -->
+                            <{foreach item=block from=$xoops_lblocks}> </p>
+              <div align="left"> 
+                                <table width="100%" border="0" cellpadding="2" cellspacing="0">
+                                    <tr>
+                                        <td class="blockTitle">&nbsp;<{$block.title}></font></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="blockContent"><div align="left"><{$block.content}></div></td>
+                                    </tr>
+                                </table>
+
+                <{/foreach}><!-- End left blocks loop -->
+              </div></td>
+                    </tr>
+                </table>
+
+
+            </td>
+      <td width="49" valign="middle" bgcolor="#cfcfcf" style="border-width:1; border-left-color:black; border-style:solid;"><a href="http://eirenicon.org" target="_blank" title="Link to eirenicon Web Site"><img src="<{$xoops_imageurl}>/images/man.gif" width="50" height="131" align="absmiddle"></a></td>
+      <td valign="top" bgcolor="#303030">
+<table width="600" height="100%" border="0" align="center" cellpadding="5" cellspacing="1" bordercolor="#303030">
+          <tr>
+            <td valign="top" bgcolor="#e1e1e1"> <table width="580" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr> 
+                  <td><{$xoops_contents}> </td>
+                </tr>
+              </table>
+              <br />
+              <table width="580" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr> 
+                  <td><div id="content"> 
+                      <!-- Display center blocks if any -->
+                      <div align="center"><{if $xoops_showcblock == 1}> 
+                        <table cellspacing="0">
+                          <tr> 
+                            <td width="100%" colspan="2"> 
+                              <!-- Start center-center blocks loop -->
+                              <{foreach item=block from=$xoops_ccblocks}> 
+                              <table width="576" cellpadding="5" cellspacing="1">
+                                <tr> 
+                                  <td class="blockTitlecc">&nbsp;<{$block.title}></td>
+                                </tr>
+                                <tr> 
+                                  <td class="blockContentcc"><{$block.content}></td>
+                                </tr>
+                              </table>
+                              <{/foreach}> 
+                              <!-- End center-center blocks loop -->
+                              <br />
+                            </td>
+                          </tr>
+                          <tr> 
+                            <td width="288" valign="top"> 
+                              <!-- Start center-left blocks loop -->
+                              <div align="left"><{foreach item=block from=$xoops_clblocks}> 
+                                <table width="280" cellpadding="5" cellspacing="1">
+                                  <tr> 
+                                    <td class="blockTitlecl">&nbsp;<{$block.title}></td>
+                                  </tr>
+                                  <tr> 
+                                    <td class="blockContentcl"><{$block.content}></td>
+                                  </tr>
+                                </table>
+                                <{/foreach}> 
+                                <!-- End center-left blocks loop -->
+                              </div></td>
+                            <td width="288" valign="top"> 
+                              <!-- Start center-right blocks loop -->
+                              <div align="left"><{foreach item=block from=$xoops_crblocks}> 
+                              </div>
+                              <table width="280" cellpadding="5" cellspacing="1">
+                                <tr> 
+                                  <td class="blockTitlecr">&nbsp;<{$block.title}></td>
+                                </tr>
+                                <tr> 
+                                  <td class="blockContentcr"><{$block.content}></td>
+                                </tr>
+                              </table>
+                              <{/foreach}> 
+                              <!-- End center-right blocks loop -->
+                            </td>
+                          </tr>
+                        </table>
+                        <{/if}> 
+                        <!-- End display center blocks -->
+                      </div>
+                      </div>
+                    <div align="left"></div>
+                </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+        </tr>
+  </table>
+<table width="800" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><img src="<{$xoops_imageurl}>/images/footer.jpg" width="800" height="19"></td>
+    </tr>
+        <tr>
+            <td>
+
+                <table width="800" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td>
+
+                            <p align="center"><a href="/search.php#Advanced Search" target="_self"><b><font size="1">Site Search</font></b></a><b><font size="1"> | </font><a href="/modules/sitemap" target="_self" title="Site Map"><font size="1">SiteMap</font></a><font size="1">&nbsp;| </font></b><a href="/modules/contact/" target="_self" title="Contact Us"><b><font size="1">Contact U</font><font size="1">s</font></b>
+</a>                
+                
+                            <hr color="black" size="1">   </td>
+                    </tr>
+                    <tr>
+                        <td>
+                <p align="center"><b><font size="1">Theme is u  
+sed under<!-- Creative Commons License -->
+<a rel="license" href="http://creativecommons.org/licenses/by/2.5/"><img alt="Creative Commons License" border="0" src="http://creativecommons.org/images/public/somerights20.gif" /></a> license from <a href="http://www.eirenicon.org" target="_blank">eirenicon l.l.c.</a><br />
+This theme&nbsp;&nbsp;is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/2.5/">Creative Commons Attribution 2.5 License</a>.
+<!-- /Creative Commons License -->
+
+<!--
+
+<rdf:RDF xmlns="http://web.resource.org/cc/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<Work rdf:about="">
+   <dc:type rdf:resource="http://purl.org/dc/dcmitype/Interactive" />
+   <license rdf:resource="http://creativecommons.org/licenses/by/2.5/" />
+</Work>
+
+<License rdf:about="http://creativecommons.org/licenses/by/2.5/">
+   <permits rdf:resource="http://web.resource.org/cc/Reproduction" />
+   <permits rdf:resource="http://web.resource.org/cc/Distribution" />
+   <requires rdf:resource="http://web.resource.org/cc/Notice" />
+   <requires rdf:resource="http://web.resource.org/cc/Attribution" />
+   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+</License>
+
+</rdf:RDF>
+
+--></font></b></p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+  </table>
+<p>&nbsp;</p></div>
+</body>
+</html>
